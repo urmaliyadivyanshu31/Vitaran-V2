@@ -33,41 +33,41 @@ const FeatureCard = ({ title, desc, icon }: FeatureCardProps) => {
 const Home: NextPage = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Provenance</title>
         <meta name="description" content="Provenance" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main className="px-4 md:px-0 mx-auto max-w-[1080px]">
+      </Head> */}
+     <main className="px-4 md:px-0 mx-auto max-w-[1080px] bg-black">
         <div className="md:text-left h-[calc(100vh-60px)] flex justify-center flex-row">
           <div className="flex flex-col justify-center">
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
-              <span className="block xl:inline text-gray-800 dark:text-white">
+            <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+              <span className="block xl:inline text-white">
                 Welcome to
               </span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#732fff] to-[#a75eff] dark:from-[#00bdff] dark:to-[#48cbe8] pb-4">
-                Provenance
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300 pb-4">
+                Vitaran
               </span>
-              <span className="block font-semibold text-[#732fff] dark:text-[#e99aff] font-medium text-2xl">
-                Decentralized Application
+              <span className="block font-semibold text-white font-medium text-2xl">
+                Supply Chain
               </span>
             </h1>
-            <p className="mt-3 text-base text-gray-700 dark:text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Verify the authenticity of products by unique product ID.
             </p>
             <div className="mt-5 sm:mt-8 sm:flex lg:justify-start md:flex-col lg:flex-row">
               <div>
                 <Link
                   href="/explore"
-                  className="w-full md:w-[70%] lg:w-full flex items-center justify-center px-8 py-3 border-0 border-transparent text-base font-medium rounded-3xl text-white bg-gradient-to-r from-[#a13bf7] to-[#7500ff] hover:drop-shadow-[0_3px_5px_#7d7d7d] dark:hover:drop-shadow-[0_3px_5px_#8ce1ff] md:py-2 md:text-lg md:px-8"
+                  className="w-full md:w-[70%] lg:w-full flex items-center justify-center px-8 py-3 border-0 border-transparent text-base font-medium rounded-full text-black bg-gradient-to-r from-white to-gray-300 hover:drop-shadow-[0_3px_5px_#7d7d7d] dark:hover:drop-shadow-[0_3px_5px_#8ce1ff] md:py-2 md:text-lg md:px-8"
                 >
                   Explore
                 </Link>
               </div>
             </div>
           </div>
-          <div className="md:flex hidden my-auto w-[30%] md:w-[60%] ml-10 items-end">
+          {/* <div className="md:flex hidden my-auto w-[30%] md:w-[60%] ml-10 items-end">
             <Image
               src="/provenance.png"
               width="500"
@@ -75,34 +75,10 @@ const Home: NextPage = () => {
               className="ml-10"
               alt="Banner"
             />
-          </div>
-        </div>
-
-        <div className="max-w-7xl pt-5 pb-20 mx-auto">
-          <div className="flex flex-col text-center w-full mb-5 md:mb-10">
-            <h1 className="text-4xl mb-10 font-bold title-font mb-4 text-[#732fff] dark:text-white">
-              Features
-            </h1>
-          </div>
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
-            <FeatureCard
-              icon={<GiDigitalTrace size={25} />}
-              title="Traceability"
-              desc="The user can track the movement and ownership of a product through its life cycle, creating a transparent record of its history."
-            />
-            <FeatureCard
-              icon={<MdSecurity size={25} />}
-              title="Security"
-              desc="Everything on-chain! Prevent any forgery and errors while authenticating a product. No one can change provenance except the authorized person."
-            />
-            <FeatureCard
-              icon={<BsFillCheckCircleFill size={25} />}
-              title="Verification"
-              desc="It also ensures that the right person is adding or updating the product. User can explore the listed products and check the provenance."
-            />
-          </dl>
+          </div> */}
         </div>
       </main>
+
     </>
   );
 };

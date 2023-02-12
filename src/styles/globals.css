@@ -15,6 +15,11 @@
   z-index: 1;
 }
 
+.home-page {
+  background: black;
+  
+}
+
 .dark .timeline:before {
   background: #2fceff;
 }
@@ -65,8 +70,8 @@
 }
 
 .dark .timeline ul li:before {
-  background: #2fceff;
-  box-shadow: 0 0 0 3px #2fceff;
+  background: black;
+  box-shadow: 0 0 0 3px black;
 }
 
 .timeline ul li .left_content {

@@ -88,9 +88,6 @@ const Register: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div>
-              <Image src="/register.png" className="rounded-full -mt-9" width="500" height="400" alt="Register" />
-            </div>
           </div>
         </div>
       </main>
