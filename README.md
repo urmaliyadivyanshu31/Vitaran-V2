@@ -13,7 +13,7 @@ With Vitran, you can be confident that your supply chain is secure and that your
 
 So why wait? Take your supply chain management to the next level with Vitran. Start using our cutting-edge system today and experience the many benefits of blockchain technology for yourself.
 
-
+https://camo.githubusercontent.com/d4c52e8e232cf1e034e786ada3be406cde87a72b6389d6346c5a26c0c3babc76/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f6473746d73693871762f696d6167652f75706c6f61642f76313635323836373337392f537570706c79253230436861696e2f476974687562253230526561646d652f72657075746174696f6e5f73797374656d5f77756d7a69662e706e67
 
 
 # Next.js Starter Project
