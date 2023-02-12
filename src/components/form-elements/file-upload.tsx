@@ -26,7 +26,7 @@ const FileUpload = ({
       </FormLabel>
       <Button
         leftIcon={<Icon as={FiFile} />}
-        className="max-w-[300px] text-[#8b00ff] border-2 border-[#8b00ff] mb-5 md:mb-0"
+        className="max-w-[300px] text-[white] border-2 border-[black] mb-5 md:mb-0"
       >
         Upload
         <input

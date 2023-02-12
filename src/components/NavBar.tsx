@@ -62,7 +62,7 @@ const Header = () => {
                   href="/"
                   className={`${
                     pathname === "/"
-                      ? "text-[#a137df] dark:text-white"
+                      ? "text-[white] dark:text-white"
                       : "text-gray-700"
                   } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-white dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
                   aria-current="page"
@@ -75,7 +75,7 @@ const Header = () => {
                   href="/explore"
                   className={`${
                     pathname === "/products"
-                      ? "text-[#a137df] dark:text-white"
+                      ? "text-[white] dark:text-white"
                       : "text-gray-700"
                   } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-white dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
                   aria-current="page"
@@ -88,7 +88,7 @@ const Header = () => {
                   href="/register"
                   className={`${
                     pathname === "/register"
-                      ? "text-[#a137df] dark:text-white"
+                      ? "text-[white] dark:text-white"
                       : "text-gray-700"
                   } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-white dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
                   aria-current="page"
@@ -103,7 +103,7 @@ const Header = () => {
                       href="#"
                       className={`${
                         pathname === "#"
-                          ? "text-[#a137df] dark:text-white"
+                          ? "text-[white] dark:text-white"
                           : "text-gray-700"
                       } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-white dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
                       aria-current="page"
@@ -114,7 +114,7 @@ const Header = () => {
                   <PopoverContent className="bg-blue-100 bg-opacity-80 box-border h-25 w-35 dark:bg-black/40 dark:bg-opacity-80 dark:text-white/80 shadow-lg rounded-xl border-1 p-4 min-w-sm">
                     <Link
                       href="/addproduct"
-                      className="group display-block p-2 rounded-md hover:bg-blue-200 hover:text-[#008dff]"
+                      className="group display-block p-2 rounded-md hover:bg-white hover:text-[black]"
                     >
                       <Stack direction={"row"} align={"center"}>
                         <Box>
@@ -129,7 +129,7 @@ const Header = () => {
                     </Link>
                     <Link
                       href="/updateproduct"
-                      className="group display-block p-2 rounded-md hover:bg-blue-200 hover:text-[#008dff]"
+                      className="group display-block p-2 rounded-md hover:bg-white hover:text-[black]"
                     >
                       <Stack direction={"row"} align={"center"}>
                         <Box>
