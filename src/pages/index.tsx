@@ -181,7 +181,7 @@ const Home: NextPage = () => {
     <div className="max-w-screen-xl px-4 md:px-8 mx-auto">
     <h2 className="text-white text-2xl lg:text-3xl font-bold text-center mb-8 md:mb-12">What others say about us</h2>
 
-    <div className="grid m-10 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 sm:gap-y-12 lg:divide-x">
+    <div className="grid m-10 sm:grid-cols-2 lg:grid-cols-2 gap-y-10 sm:gap-y-12 lg:divide-x">
   
       <div className="flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8">
         <div className="text-white text-center">“This is a section of some simple filler text, also known as placeholder text.”</div>
