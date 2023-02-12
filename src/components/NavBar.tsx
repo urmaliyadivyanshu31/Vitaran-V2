@@ -56,7 +56,20 @@ const Header = () => {
             } justify-between items-center w-full md:flex md:w-auto md:order-1`}
           >
             <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-              <li></li>
+              <li>
+                <Link
+                href="/"
+                className={`${
+                  pathname === "/"
+                    ? "text-[white] text-3xl dark:text-white"
+                    : "text-gray-700"
+                } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-white dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
+                aria-current="page"
+
+                >
+                <b>vitran</b>
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/"
@@ -80,7 +93,7 @@ const Header = () => {
                   } block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9504ff] md:p-0 md:dark:hover:text-white dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
                   aria-current="page"
                 >
-                  <b>Explore</b>
+                  <b>Tracker</b>
                 </Link>
               </li>
               <li>

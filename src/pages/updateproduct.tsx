@@ -148,10 +148,10 @@ const Updateproduct: NextPage = () => {
         <meta name="description" content="Chain - Update Product" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <main className="px-4 my-8 mx-auto max-w-[1080px]">
+      <main className="px-4 my-8 items-center  max-w-1080px text-center">
         <div className="max-w-7xl pt-5 pb-5 mx-auto">
           <Header heading="Update Product" />
-          <div className="flex flex-col lg:flex-row text-center w-full">
+          <div className="flex flex-col lg:flex-row items-center text-center w-full">
             <div className="w-full md:w-1/2">
               <div className="w-full pl-0 p-4 overflow-x-hidden overflow-y-auto md:inset-0 justify-center flex md:h-full">
                 <div className="relative w-full h-full md:h-auto">
