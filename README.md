@@ -5,6 +5,9 @@ The supply chain management industry is in dire need of a comprehensive solution
 
 Vitran is a cutting-edge supply chain management system that leverages the power of blockchain technology and the Ethereum ecosystem to provide a secure, efficient, and transparent solution. Our system is designed to address the many challenges faced by supply chain management, such as fraud, inefficiency, and a lack of transparency. With Vitran, you can have confidence that your supply chain is secure and that the products you receive are genuine.
 
+![image](https://user-images.githubusercontent.com/95743189/218319346-de8dc78a-5235-4720-942c-d8c7ba1e4e41.png)
+
+
 At the heart of Vitran is the Ethereum blockchain, which provides a secure and decentralized platform for the storage and transfer of information. Our system leverages the power of smart contracts to automate the process of tracking and verifying the authenticity of products as they move through the supply chain. This ensures that every step of the supply chain is transparent and can be audited at any time.
 
 In addition to its powerful backend, Vitran also features a sleek and user-friendly frontend that is built using the Next.js framework. This allows for fast and responsive interactions with the system, making it easy for users to access the information they need in real-time. The frontend is designed to be accessible and intuitive, allowing even those who are new to blockchain technology to easily navigate the system.
@@ -13,7 +16,9 @@ With Vitran, you can be confident that your supply chain is secure and that your
 
 So why wait? Take your supply chain management to the next level with Vitran. Start using our cutting-edge system today and experience the many benefits of blockchain technology for yourself.
 
-https://camo.githubusercontent.com/d4c52e8e232cf1e034e786ada3be406cde87a72b6389d6346c5a26c0c3babc76/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f6473746d73693871762f696d6167652f75706c6f61642f76313635323836373337392f537570706c79253230436861696e2f476974687562253230526561646d652f72657075746174696f6e5f73797374656d5f77756d7a69662e706e67
+![image](https://user-images.githubusercontent.com/95743189/218319269-015b614f-af33-4025-8733-d9b147330c1c.png)
+
+
 
 
 # Next.js Starter Project
