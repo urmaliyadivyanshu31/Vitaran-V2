@@ -55,8 +55,8 @@ const Header = () => {
               isOpenMenu ? "block" : "hidden"
             } justify-between items-center w-full md:flex md:w-auto md:order-1`}
           >
-            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-              <li>
+            <div className="flex flex-row justify-end  ">
+              <div className="flex mx-12 text-3xl ">
                 <Link
                 href="/"
                 className={`${
@@ -69,7 +69,8 @@ const Header = () => {
                 >
                 <b>vitran</b>
                 </Link>
-              </li>
+              </div>
+            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 items-center md:text-sm md:font-medium">
               <li>
                 <Link
                   href="/"
@@ -159,6 +160,7 @@ const Header = () => {
                 </Popover>
               </li>
             </ul>
+            </div>
           </div>
         </div>
       </nav>
