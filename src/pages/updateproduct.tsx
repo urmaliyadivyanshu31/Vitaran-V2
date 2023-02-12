@@ -147,7 +147,6 @@ const Updateproduct: NextPage = () => {
         <title>Update Product</title>
         <meta name="description" content="Chain - Update Product" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="px-4 my-8 mx-auto max-w-[1080px]">
         <div className="max-w-7xl pt-5 pb-5 mx-auto">
@@ -211,7 +210,7 @@ const Updateproduct: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2">
+            {/* <div className="w-full md:w-1/2">
               <div className="w-full pl-0 p-4 overflow-x-hidden overflow-y-auto md:inset-0 justify-center flex md:h-full">
                 <div className="relative w-full h-full md:h-auto">
                   <div className="relative rounded-lg shadow-lg backdrop-blur-sm bg-white/30 bg-opacity-30 dark:bg-gray-700/30 dark:bg-opacity-30">
@@ -230,7 +229,7 @@ const Updateproduct: NextPage = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>

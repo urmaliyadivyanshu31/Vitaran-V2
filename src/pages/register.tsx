@@ -54,43 +54,40 @@ const Register: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="px-4 md:px-0 mx-auto max-w-[1080px]">
-        <div className="max-w-7xl mt-5 pt-5 pb-5 mx-auto">
-          <Header heading="Register" />
-          <div className="flex flex-col md:flex-row text-center w-full">
-            <div className="w-full md:w-1/2 mb-10 md:mb-0 md:p-4 overflow-x-hidden overflow-y-auto md:inset-0 justify-center flex md:h-full">
-              <div className="relative w-full h-full md:h-auto">
-                <div className="relative rounded-lg shadow-lg backdrop-blur-lg bg-white/30 bg-opacity-40 dark:bg-gray-700/40">
-                  <div className="px-6 py-6 lg:px-8">
-                    <form className="space-y-6">
-                      <Input
-                        id="name"
-                        name="name"
-                        label="Name"
-                        placeholder="Name"
-                        onChange={(e) => setName(e.target.value)}
-                      />
-                      <Select
-                        id="roles"
-                        name="roles"
-                        label="Roles"
-                        placeholder="Select role"
-                        options={roles}
-                        onChange={(event) => { 
-                          console.log(event.target.selectedIndex - 1);
-                          setRole(event.target.selectedIndex - 1) }}
-                      />
-                      <Button label="Register" onClick={() => {
-                            write?.()
-                          }} />
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <main className="px-4 md:px-0 mx-auto max-w-1080px">
+  <div className="max-w-7xl mt-5 pt-5 pb-5 mx-auto text-center">
+    <Header heading="Register" />
+    <div className="w-full my-10">
+      <div className="rounded-lg shadow-lg backdrop-blur-lg bg-white/30 bg-opacity-40 dark:bg-gray-700/40">
+        <div className="p-6">
+          <form className="space-y-6 text-gray-900">
+            <Input
+              id="name"
+              name="name"
+              label="Name"
+              placeholder="Name"
+              onChange={(e) => setName(e.target.value)}
+            />
+            <Select
+              id="roles"
+              name="roles"
+              label="Roles"
+              placeholder="Select role"
+              options={roles}
+              onChange={(event) => { 
+                console.log(event.target.selectedIndex - 1);
+                setRole(event.target.selectedIndex - 1) }}
+            />
+            <Button label="Register" onClick={() => {
+              write?.()
+            }} />
+          </form>
         </div>
-      </main>
+      </div>
+    </div>
+  </div>
+</main>
+
     </>
   )
 }

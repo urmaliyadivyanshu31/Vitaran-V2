@@ -33,7 +33,7 @@ const Select = ({
         id={id}
         name={name}
         onChange={onChange}
-        className="mt-0 text-gray-700 dark:text-white"
+        className="mt-0 text-white dark:text-white"
         borderColor="text-gray-600"
         focusBorderColor="#a13bf7"
       >
@@ -43,7 +43,7 @@ const Select = ({
         {options?.map(({ name, value }) => (
           <option
             key={value}
-            className="text-gray-700 dark:text-white"
+            className="text-gray-700 dark:text-black"
             value={value}
           >
             {name}

@@ -206,12 +206,12 @@ const Addproduct: NextPage = () => {
                                 });
                               }}
                             />
-                            <Image
-                              src={image !== "" ? image : "/preview.png"}
+                            {/* <Image
+                              src={image}
                               alt="preview"
                               width={200}
                               height={200}
-                            />
+                            /> */}
                           </div>
                         </div>
                       </div>

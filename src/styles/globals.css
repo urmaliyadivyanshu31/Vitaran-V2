@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Timeline css */
+body {
+  font-family: 'Manrope', sans-serif;
+}
 
 .timeline:before {
   content: "";
@@ -17,7 +22,7 @@
 
 .home-page {
   background: black;
-  
+
 }
 
 .dark .timeline:before {

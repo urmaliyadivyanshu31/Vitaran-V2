@@ -2,7 +2,6 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { BiMoon, BiSun } from "react-icons/bi";
 import { useRouter } from "next/router";
 import { ConnectKitButton } from "connectkit";
 import {

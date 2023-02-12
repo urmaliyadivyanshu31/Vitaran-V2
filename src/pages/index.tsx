@@ -9,16 +9,12 @@ import { MdSecurity } from "react-icons/md";
 interface FeatureCardProps {
   title: string;
   desc: string;
-  icon: any;
 }
 
-const FeatureCard = ({ title, desc, icon }: FeatureCardProps) => {
+const FeatureCard = ({ title, desc,  }: FeatureCardProps) => {
   return (
     <div className="relative backdrop-blur-sm bg-white/40 bg-opacity-20 dark:bg-gray-700 dark:bg-opacity-30 p-5 rounded-lg">
       <dt className="flex flex-col items-center md:items-start">
-        <div className="flex items-center justify-center h-12 w-12 rounded-md bg-[#732fff] dark:bg-[#a13bf7] text-white">
-          {icon}
-        </div>
         <p className="pt-5 text-lg leading-6 font-medium font-semibold text-[#732fff] dark:text-[#e99aff]">
           {title}
         </p>
@@ -33,30 +29,12 @@ const FeatureCard = ({ title, desc, icon }: FeatureCardProps) => {
 const Home: NextPage = () => {
   return (
     <>
-      {/* <Head>
-        <title>Provenance</title>
-        <meta name="description" content="Provenance" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head> */}
      <main className="px-4 md:px-0 mx-auto max-w-[1080px] bg-black">
-        <div className="md:text-left h-[calc(100vh-60px)] flex justify-center flex-row">
-          <div className="flex flex-col justify-center">
-            <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
-              <span className="block xl:inline text-white">
-                Welcome to
-              </span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300 pb-4">
-                Vitaran
-              </span>
-              <span className="block font-semibold text-white font-medium text-2xl">
-                Supply Chain
-              </span>
-            </h1>
-            <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Verify the authenticity of products by unique product ID.
-            </p>
-            <div className="mt-5 sm:mt-8 sm:flex lg:justify-start md:flex-col lg:flex-row">
+     <div className="flex flex-col items-center">
+      <div className="max-w-xl flex flex-col items-center text-center pt-8 lg:pt-32 pb-16 lg:pb-48">
+        <p className="text-white md:text-lg xl:text-xl font-semibold mb-4 md:mb-6">Very proud to introduce</p>
+
+        <h1 className="text-white text-4xl sm:text-5xl md:text-6xl font-bold mb-8 md:mb-12">Revolutionary way to build the web</h1>
               <div>
                 <Link
                   href="/explore"
@@ -65,18 +43,8 @@ const Home: NextPage = () => {
                   Explore
                 </Link>
               </div>
-            </div>
-          </div>
-          {/* <div className="md:flex hidden my-auto w-[30%] md:w-[60%] ml-10 items-end">
-            <Image
-              src="/provenance.png"
-              width="500"
-              height="500"
-              className="ml-10"
-              alt="Banner"
-            />
-          </div> */}
-        </div>
+      </div>
+    </div>
       </main>
 
     </>
