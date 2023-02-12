@@ -9,6 +9,8 @@ body {
   font-family: 'Manrope', sans-serif;
 }
 
+
+
 .timeline:before {
   content: "";
   position: absolute;
