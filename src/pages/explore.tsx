@@ -70,7 +70,7 @@ export default function Products() {
   return (
     <>
       <Head>
-        <title>Explore</title>
+        <title>Tracker</title>
         <meta name="description" content="Explore" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

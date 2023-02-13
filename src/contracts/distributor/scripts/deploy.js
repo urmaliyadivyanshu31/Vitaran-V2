@@ -8,6 +8,7 @@ async function main() {
     verifierSymbol
   );
 
+
   await erc20Verifier.deployed();
   console.log(verifierName, " tx hash:", erc20Verifier.address);
 }

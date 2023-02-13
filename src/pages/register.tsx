@@ -40,7 +40,7 @@ const Register: NextPage = () => {
         title: "User Registered",
         description: "User has been registered successfully",
         status: "success",
-        duration: 9000,
+        duration: 8000,
         isClosable: true,
       })
     }

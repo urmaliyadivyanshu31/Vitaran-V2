@@ -109,11 +109,11 @@ export default function ProductCard(props: ProductProps) {
             <Modal onClose={onClose} isOpen={isOpen} isCentered>
               <ModalOverlay />
               <ModalContent>
-                <ModalHeader> Verify authenticity of product</ModalHeader>
+                <ModalHeader> Verify authenticity using QR Scanner</ModalHeader>
                 <ModalCloseButton />
                 <ModalBody>
                   <Text className="font-semibold text-sm text-gray-500 text-center pb-5 -pt-5">
-                    Just scan the QR code and check the provenance.
+                    Just scan the QR code and check the vitran.
                   </Text>
                   <Box className="flex flex-col items-center justify-center">
                     <QRCode
